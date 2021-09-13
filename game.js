@@ -4,7 +4,7 @@ let frames=0;
 const DEGREE = Math.PI/180;
 //image
 const sprite=new Image();
-sprite.src="/img/sprite.png";
+sprite.src="img/sprite.png";
 // LOAD SOUNDS
 const SCORE_S = new Audio();
 SCORE_S.src = "audio/sfx_point.wav";

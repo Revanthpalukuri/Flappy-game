@@ -239,7 +239,7 @@ const pipes={
      },
      update: function(){
          if(state.current!=state.game) return;
-         if(frames%100==0)
+         if(frames%150==0)
          {
              this.position.push({
                  x:cvs.width,
